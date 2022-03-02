@@ -23,10 +23,12 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        working-directory: Source
+        run: dotnet build --configuration Release Tailwind.Traders.Backend.sln
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        working-directory: Source
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp Tailwind.Traders.Backend.sln
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
