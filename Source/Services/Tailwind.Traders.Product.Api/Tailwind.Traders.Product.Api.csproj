@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
-    <DockerDefaultTargetOS>$(DockerDefaultTargetOS)</DockerDefaultTargetOS>
     <UserSecretsId>f2fcf537-652a-4a9e-840e-ab5f0651520f</UserSecretsId>
     <AssemblyName>Tailwind.Traders.Product.Api</AssemblyName>
   </PropertyGroup>

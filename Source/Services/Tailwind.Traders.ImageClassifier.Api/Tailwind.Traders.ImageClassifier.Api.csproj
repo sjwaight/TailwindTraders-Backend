@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
     <AspNetCoreHostingModel>$(AspNetCoreHostingModel)</AspNetCoreHostingModel>
-    <DockerDefaultTargetOS>$(DockerDefaultTargetOS)</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
