@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
-    <AspNetCoreHostingModel>$(AspNetCoreHostingModel)</AspNetCoreHostingModel>s
+    <AspNetCoreHostingModel>$(AspNetCoreHostingModel)</AspNetCoreHostingModel>
     <UserSecretsId>1817a120-7dc7-4fa8-829c-80d84a3d0fa7</UserSecretsId>
   </PropertyGroup>
 
